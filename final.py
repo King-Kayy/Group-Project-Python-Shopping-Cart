@@ -1,6 +1,6 @@
 def display_catalog(catalog):
     """
-    Displays the 1product catalog with product names and prices.
+    Displays the product catalog with product names and prices.
     """
     print("\n--- Product Catalog ---")
     if not catalog:
@@ -361,3 +361,4 @@ def main_menu():
 # Run the main menu function when the script is executed
 if __name__ == "__main__":  # Fixed: Correct syntax for main guard
     main_menu()
+

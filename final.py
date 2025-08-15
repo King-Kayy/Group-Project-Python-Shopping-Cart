@@ -1,6 +1,6 @@
 def display_catalog(catalog):
     """
-    Displays the product catalog with product names and prices.
+    Displays the 1product catalog with product names and prices.
     """
     print("\n--- Product Catalog ---")
     if not catalog:
@@ -273,7 +273,7 @@ def main_menu():
     """
     Main function to run the command-line shopping system.
     """
-    # Initialize product catalog (cleaned up - removed trailing spaces and unrealistic models)
+    # Initialize product catalog
     catalog = {
         "Iphone 11": 2100.99,
         "Iphone 11 Pro": 2333.99,
